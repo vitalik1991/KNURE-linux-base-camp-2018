@@ -20,7 +20,7 @@ function WriteDataToFile(){
   if (( $#==2 )); then
      MESSAGE=$2;
   fi
-  echo $MESSAGE >> "$OFILE/$OFILE_NAME"
+  echo $MESSAGE >> "$OFILE"
 }
 
 #Fuction for write error message
@@ -84,7 +84,7 @@ if (( $#==2 )); then
      cp ~/bash/task1.out  ~/bash/task1-$outputName.out;
   fi
 
-   OFILE=$2 
+   OFILE="$2/$OFILE_NAME" 
 fi
 
 
