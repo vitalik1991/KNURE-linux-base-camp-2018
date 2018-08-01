@@ -82,5 +82,7 @@ void x_cleanup(void) {
 
 module_init( x_init );
 module_exit( x_cleanup );
+
+MODULE_AUTHOR("Vitalii Martovytskyi <martovytskyi@gmail.com>");
 MODULE_LICENSE( "GPL" );
 

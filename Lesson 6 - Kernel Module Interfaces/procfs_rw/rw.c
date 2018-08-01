@@ -3,13 +3,14 @@
 #include <linux/kernel.h>
 #include <linux/proc_fs.h>
 #include <linux/sched.h>
-#include <asm/uaccess.h>
+//#include <asm/uaccess.h>
+#include <linux/uaccess.h>
 #include <linux/slab.h>
 
 MODULE_LICENSE("Dual BSD/GPL");
-MODULE_AUTHOR("Aleksandr Bulyshchenko <A.Bulyshchenko@globallogic.com>");
+MODULE_AUTHOR("Vitalii Martovytskyi <martovytskyi@gmail.com>");
 MODULE_DESCRIPTION("Example for procfs read/write");
-MODULE_VERSION("0.1");
+MODULE_VERSION("0.2");
 
 
 #define MODULE_TAG      "example_module "
