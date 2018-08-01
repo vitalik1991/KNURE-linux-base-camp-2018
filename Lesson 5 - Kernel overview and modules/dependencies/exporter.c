@@ -2,7 +2,7 @@
 #include <storage.h>
 
 MODULE_LICENSE("GPL");
-MODULE_AUTHOR("Aleksandr Bulyshchenko <A.Bulyshchenko@globallogic.com>");
+MODULE_AUTHOR("Vitalii Martovytskyi <martovytskyi@gmail.com>");
 MODULE_DESCRIPTION("Shared variable exporter module");
 MODULE_VERSION("0.1");
 

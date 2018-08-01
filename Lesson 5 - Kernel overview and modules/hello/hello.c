@@ -1,7 +1,7 @@
 #include <linux/module.h>
 
 MODULE_LICENSE("GPL");
-MODULE_AUTHOR("Your_Name <your@e-mail");
+MODULE_AUTHOR("Vitalii Martovytskyi <martovytskyi@gmail.com>");
 MODULE_DESCRIPTION("HelloWorld Linux module");
 MODULE_VERSION("0.1");
 
